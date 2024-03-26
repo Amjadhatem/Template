@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <!-- ------------------Slider----------------- -->
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+   />
+      
+    <!-- ------------------Slider----------------- -->
+
+</head>
+<body>
+    
+        <!-- ----------------------------------NavBar-------------------------------- -->
+        <header>
+        <div class="logo"><img src="./Logo.png" alt="Logo" style="height: 85px;"></div>
+        <div class="humburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+                <!-- <li><a href="" class="nav-button">Login</a></li>
+                <li><a href="" class="nav-button">Sign Up</a></li> -->
+                <li><button class="Login-button">Login</button></li>
+                <li><button class="Signin-button">Sign in</button></li>
+            </ul>
+            
+        </nav>
+        </header>
+        <!-- ---------------------------------/NavBar-------------------------------- -->
+        
+        <!-- ----------------------------------Slider-------------------------------- -->
+        <section>
+        <div class="container swiper mySwiper">
+            <div class="content swiper-wrapper">
+                <div class="slides swiper-slide">
+                    <img src="./2380685.jpg" alt="">
+                    <div class="img_overlay">
+                        <p>Wellcome</p>
+                        <h2>SketchMe</h2>
+                        <h3>Capturing Memories</h3>
+                        <!-- <a href="#">More Details</a> -->
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="slides swiper-slide">
+                    <img src="./BG1.jpg" alt="">
+                </div>
+                <div class="slides swiper-slide">
+                    <img src="./BG3.jpg" alt="">
+                    <div class="img_overlay">
+                        <p>Celebrate Life's Moments</p>
+                        <h2>Preserve Memories</h2>
+                        <!-- <h3>From Scratch</h3> -->
+                    </div>
+                </div>
+            </div>
+          <div class="swiper-button-next btn"></div>
+          <div class="swiper-button-prev btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        </section>
+        <!-- ---------------------------------/Slider-------------------------------- -->
+
+        <!-- -----------------------------------About--------------------------------- -->
+        <div>
+            <div class="section_container">
+                <div class="content">
+                    <p class="subtitle">Hello</p>
+                    <h1 class="title">
+                        I'm <span>Amjad <br>A</span> Artist
+                    </h1>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam omnis expedita rerum deserunt, voluptatibus dignissimos laborum velit officia aperiam itaque, perferendis minima assumenda, ducimus harum iusto. Natus, similique adipisci.</p>
+                    <div class="action__btns">
+                        <button class="hire__me">Contact Me</button>
+                        <button class="portfolio">My Work</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./Me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------/About--------------------------------- -->
+
+        <!-- ----------------------------------Services--------------------------------- -->
+        <div class="Sevices_Container">
+            <h1>Our Services</h1>
+            <div class="row">
+                <div class="Service">
+                    <i class="fa-solid fa-paintbrush"></i>  
+                    <h2>Pencil and Charcoal Portraits</h2>
+                    <p>Specialize in creating detailed portraits using pencil and charcoal.</p>
+                </div>
+                <div class="Service">
+                    <i class="fa-solid fa-image-portrait"></i>  
+                    <h2>Framing</h2>
+                    <p>Ability to draw portraits of more than one person in a single artwork, perfect for family portraits, couple portraits, or commemorating special occasions with loved ones..</p>
+                </div>
+                <div class="Service">
+                    <i class="fa-solid fa-gift"></i>  
+                    <h2>Professional Packaging</h2>
+                    <p>Each order can be placed in a high-quality frame chosen by the client from a selection of styles, ensuring the artwork is ready to display upon delivery.</p>
+                </div>
+                <div class="Service">
+                    <i class="fa-solid fa-expand"></i>  
+                    <h2>Different sizes</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------------/Services--------------------------------- -->
+
+        <!-- ---------------------------------Gallery--------------------------------- -->
+        <div class="Gallery_container">
+            <h1>Gallery</h1>
+            <div class="img_container">
+                <div class="drwa_image"><img src="./Gallery1.jpg" alt="Draw1"></div>
+                <div class="drwa_image"><img src="./Gallery2.jpg" alt="Draw1"></div>
+                <div class="drwa_image"><img src="./Gallery3.jpg" alt="Draw1"></div>
+                <div class="drwa_image"><img src="./Gallery4.jpg" alt="Draw1"></div>
+                <div class="drwa_image"><img src="./Gallery5.jpg" alt="Draw1"></div>
+                <div class="drwa_image"><img src="./Gallery6.jpg" alt="Draw1"></div>
+            </div>
+
+            <div class="Popup_Draw">
+                <span>&times;</span>
+                <img src="./Gallery1.jpg" alt="">
+            </div>
+
+            <button class="see_more_button">See More</button>
+        </div>
+        <!-- ---------------------------------/Gallery--------------------------------- -->
+
+
+</body>
+<!-- Slider -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./Javascript.js"></script>
+
+</html>
