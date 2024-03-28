@@ -59,3 +59,7 @@ document.querySelector('.Popup_Draw span').onclick = () =>{
     document.querySelector('.Popup_Draw').style.display = 'none';
 }
 // ----------------------Gallery--------------------
+
+// ----------------------Blogs--------------------
+
+// ----------------------Blogs--------------------
